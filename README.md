@@ -5,7 +5,7 @@ This repository contains training code and submissions for the [2025 HDR Scienti
 ## Repository Structure
 
 ```
-submission/
+submission/submission1/
   <model weights>
   model.py
   requirements.txt

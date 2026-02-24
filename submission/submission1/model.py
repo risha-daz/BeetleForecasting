@@ -9,10 +9,10 @@ import torch
 import torch._dynamo as dynamo
 import os
 import torch.nn as nn
-from col_vals import *
-from contrastive_model import BeetleContrastiveModel
-from encoding import CategoricalEncoder, SPEIHead
-from dataloader import get_sentinel_beetles_loader_with_collate
+from .col_vals import *
+from .contrastive_model import BeetleContrastiveModel
+from .encoding import CategoricalEncoder, SPEIHead
+from .dataloader import get_sentinel_beetles_loader_with_collate
 
 class BeetleSPEIPredictor(nn.Module):
     def __init__(
