@@ -43,7 +43,7 @@ pip install -r requirements.txt
 There are 2 models to be trained, one is a contrastive model aimed at unifying 3 images and creating relevent features from the images. The second is the actual predictive model.
 
 ```bash
-python training/contrastive.py
+python training/contrastive_trainer.py
 python training/train.py
 ```
 

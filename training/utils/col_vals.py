@@ -1,5 +1,5 @@
 DOMAIN_IDS: list[int] = [1, 3, 4, 7, 9, 11, 32, 46, 99, 202]
-
+TARGET_NAMES = ["SPEI_1y","SPEI_2y","SPEI_30d"]
 SCIENTIFIC_NAMES = ['Carabus goryi',
  'Pterostichus coracinus',
  'Chlaenius aestivus',
